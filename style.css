@@ -1,0 +1,112 @@
+*{
+    background-color: #003566;
+    margin: 0;
+    padding: 0;
+}
+ .heading{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    color: #ffd60a;
+    margin-top: 30px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+   
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:490px;
+    height:490px;
+    gap:1vmin;
+    
+
+}
+.buttons{
+width: 150px;
+height: 150px;
+background-color: #ffc300;
+border-radius: 10px;
+font-size: 8vmin;
+color: #001d3d;
+
+}
+.button0{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    
+
+}
+.button1{
+    border-bottom: 2px solid black;
+    border-top: none;
+}
+.button2{
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-right: none;
+
+}
+.button3{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: none;
+}
+.button5{
+    border-bottom: 2px solid black;
+    border-right: none;
+
+}
+.button6{
+    border-right: 2px solid black;
+    border-bottom: none;
+    border-left: none;
+}
+.button7{
+    border-right: 2px solid black;
+    border-bottom: none;
+}
+.button8{
+    border-right: none;
+    border-bottom: none;
+}
+.reset{
+    background-color: #000814;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+     margin-top:20px ;
+     border: none;
+}
+.msg{
+    margin-bottom:45vh;
+    margin-top:40vh;
+}
+ .newgamebtn{
+    background-color: #000814;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+     margin-top:10vh ;
+     border: none;
+    margin-left: 47vw;
+ }
+ .msg-p{
+    color: #ffd60a;
+    font-size: 8vmin;
+    text-align: center;
+ }
+ .hide{
+    display: none;
+ }
